@@ -36,7 +36,7 @@ function buildcharts(sampleid){
         let sample = samples.filter(element => element.id == sampleid)[0]
         console.log(sample)
 
-        //Chart creation for chart 1. This is a horizontal bar chart of the top 10 OTU samples and their counts in the sample
+        //Chart creation for chart 1. This is a horizontal bar chart of the top 10 OTU samples and their frequency in the sample
         let trace1 = {
             x: sample.sample_values.slice(0, 10).reverse(),
             y: sample.otu_ids.slice(0, 10).map(element=>"OTU " + element).reverse(),
