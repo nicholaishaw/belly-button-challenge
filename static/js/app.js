@@ -1,6 +1,4 @@
-//Tutor Simon Rennocks assisted with the development of the logic for the code and provided guidance in syntax development
-
-//URL variable created so it is easier to include the link in the functions below
+//URL variable created so it is easier to include the link in the functions below. This URL contains the JSON file of the raw biodiversity data
 let url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json"
 
 //This function will initialize the graphs, dropdown box, and the metadata on the webpage
