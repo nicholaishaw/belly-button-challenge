@@ -4,6 +4,7 @@ A recent (fictional) study was completed to analyze the amount of microbal organ
 
 
 # Javascript Process
+The following list was completed to visualize the bacteria sample amounts in each participant:
 
 * I used the D3 library to read in samples.json from the URL source.
 
@@ -41,8 +42,6 @@ A recent (fictional) study was completed to analyze the amount of microbal organ
 
 **Figure 3.** Interactive bubble chart of the amount of each bacteria found in participant 940's belly button.
 
-Display each key-value pair from the metadata JSON object somewhere on the page.
+* All the plots will update when a new participant is selected.
 
-Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
-
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file
+* The charts were deployed to GitHub Pages. The pages link is located [here](https://nicholaishaw.github.io/belly-button-challenge/)
