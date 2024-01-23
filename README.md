@@ -12,7 +12,8 @@ The following list was completed to visualize the bacteria sample amounts in eac
   
 ![image](https://github.com/nicholaishaw/belly-button-challenge/assets/135463220/7013d4af-d120-4b24-9fa4-c33901cace6b)
 
-**Figure 1.** Sample metadata displaying the demographic information, ID, and belly button type. Participant 940 was selected as an exmaple. 
+**Figure 1.** Sample metadata displaying the demographic information, ID, and belly button type. Participant 940 was selected as an exmaple.
+___
 
 * I created a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
@@ -25,6 +26,7 @@ The following list was completed to visualize the bacteria sample amounts in eac
 ![image](https://github.com/nicholaishaw/belly-button-challenge/assets/135463220/c47c51f3-b830-4a06-9fce-eab95cbaa1a8)
 
 **Figure 2.** Interactive horizontal bar chart of the amount of bacteria smaples found in participant 940's belly button.
+___
 
 * I created a bubble chart that displays each sample.
 
@@ -41,7 +43,8 @@ The following list was completed to visualize the bacteria sample amounts in eac
 ![image](https://github.com/nicholaishaw/belly-button-challenge/assets/135463220/dec076ac-37ae-435f-b71b-9a4c25b3d499)
 
 **Figure 3.** Interactive bubble chart of the amount of each bacteria found in participant 940's belly button.
+___
 
 * All the plots will update when a new participant is selected.
 
-* The charts were deployed to GitHub Pages. The pages link is located [here](https://nicholaishaw.github.io/belly-button-challenge/)
+* The charts were deployed to GitHub Pages. The pages link is located [here](https://nicholaishaw.github.io/belly-button-challenge/).
