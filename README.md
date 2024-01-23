@@ -23,22 +23,23 @@ A recent (fictional) study was completed to analyze the amount of microbal organ
   
 ![image](https://github.com/nicholaishaw/belly-button-challenge/assets/135463220/c47c51f3-b830-4a06-9fce-eab95cbaa1a8)
 
-**Figure 2.** Horizontal bar chart of the amount of smaples found in the participant's belly button.
+**Figure 2.** Interactive horizontal bar chart of the amount of bacteria smaples found in participant 940's belly button.
 
+* I created a bubble chart that displays each sample.
 
-* Create a bubble chart that displays each sample.
+    * I used otu_ids for the x values.
 
-Use otu_ids for the x values.
+    * I used sample_values for the y values.
 
-Use sample_values for the y values.
+    * I used sample_values for the marker size.
 
-Use sample_values for the marker size.
+    * I used otu_ids for the marker colors.
 
-Use otu_ids for the marker colors.
+    * I used otu_labels for the text values.
 
-Use otu_labels for the text values.
+![image](https://github.com/nicholaishaw/belly-button-challenge/assets/135463220/dec076ac-37ae-435f-b71b-9a4c25b3d499)
 
-
+**Figure 3.** Interactive bubble chart of the amount of each bacteria found in participant 940's belly button.
 
 Display each key-value pair from the metadata JSON object somewhere on the page.
 
