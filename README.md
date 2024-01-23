@@ -1,23 +1,32 @@
 # Biodiversity Analysis Using Javascript
 
-In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
-
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+A recent (fictional) study was completed to analyze the amount of microbal organisms in an individual's belly button. This dataset revealed that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare. My job as an analyst on this fake study was to create charts and interactive graphs using javascript to show the amount of microbal organisms in each study participant's belly button. Specifically, I used the D3 library to obtain the json data from: https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json. After the data were scraped, we used plotly to plot the data and inserted the code into the HTML index.
 
 
-Complete the following steps:
+# Javascript Process
 
-Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
+* I used the D3 library to read in samples.json from the URL source.
 
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+* I displayed the sample metadata, i.e., an individual's demographic information.
+  
+![image](https://github.com/nicholaishaw/belly-button-challenge/assets/135463220/7013d4af-d120-4b24-9fa4-c33901cace6b)
 
-Use sample_values as the values for the bar chart.
+**Figure 1.** Sample metadata displaying the demographic information, ID, and belly button type. Participant 940 was selected as an exmaple. 
 
-Use otu_ids as the labels for the bar chart.
+* I created a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
-Use otu_labels as the hovertext for the chart.
+     * I used the sample_values column as the values for the bar chart.
 
-Create a bubble chart that displays each sample.
+     * I used the otu_ids column as the labels for the bar chart.
+
+     * I used the otu_labels column as the hovertext for the chart.
+  
+![image](https://github.com/nicholaishaw/belly-button-challenge/assets/135463220/c47c51f3-b830-4a06-9fce-eab95cbaa1a8)
+
+**Figure 2.** Horizontal bar chart of the amount of smaples found in the participant's belly button.
+
+
+* Create a bubble chart that displays each sample.
 
 Use otu_ids for the x values.
 
@@ -29,7 +38,7 @@ Use otu_ids for the marker colors.
 
 Use otu_labels for the text values.
 
-Display the sample metadata, i.e., an individual's demographic information.
+
 
 Display each key-value pair from the metadata JSON object somewhere on the page.
 
